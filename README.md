@@ -1,4 +1,5 @@
-== Setup
+Setup
+=====
 
 This project uses foreman to manage the development environment.
 Developer specific settings, or secrets such as passwords are set via
@@ -10,9 +11,10 @@ file containing at least the following:
 RACK_ENV=development
 ```
 
--- Commands
+Commands
+--------
 
-To start the server, run `foreman start`
-Specs can be run with `script/test`
-Features can be run with `script/features`
-Any other commands should be run as usual, but replace `bundle exec` with `foreman run`
+- To start the server, run `foreman start`
+- Specs can be run with `script/test`
+- Features can be run with `script/features`
+- Any other commands should be run as usual, but replace `bundle exec` with `foreman run`
