@@ -1,9 +1,0 @@
-%h1 All Books
-
-- @books.each do |book|
-  %img.pull-left.img-polaroid{src: "http://placehold.it/100x50.jpg"}
-  %p= [book.author, book.title, book.publisher, book.year_of_publication,
-    number_to_currency(book.price)].join(". ")
-  %p
-    = link_to "View Details", "#", class: "btn"
-    = link_to "Add to Cart", "#", class: "btn btn-primary"
